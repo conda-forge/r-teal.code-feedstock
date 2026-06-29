@@ -1,4 +1,4 @@
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/teal.code_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/teal.code/teal.code_{{ version }}.tar.gz
-  sha256: 79df6e33694b89923b938069c8ae3f1f5fce2760b019b276e5e8902bb5ed4b06
+  sha256: 30491ccc6fd5df4548966db7e0cdc0ee3ad3f0661bfffc54758790121e3cc46c
 
 build:
   number: 0
